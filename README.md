@@ -8,12 +8,12 @@ Bike Share Toronto allows a rider to rent a bike from one of its 680 stations an
 
 The goal of this project is to create a tool that can predict a proposed Bike Share Toronto station's burden on the rebalancing team, using the proposed station's longitude, latitude, and elevation.
 
-Note that this tool is not intended to be a sole decision-maker for planning station additions. There are many factors that should be considered before adding a new station to the network, such as the station's projected usage and cost of installation. It's easy to imagine why Bike Share Toronto would want to add a station to a very high demand area, even if that proposed station would require rebalancing—the income generated from that station could, potentially, pay for its own rebalancing. Nonetheless, this rebalancing minimization tool would still be able to provide decision-makers with helpful information.
+Note that this tool is not intended to be a sole decision-maker for planning station additions. There are many factors that should be considered when adding a new station to the network, such as the station's projected usage and cost of installation. For example, it's easy to imagine why Bike Share Toronto would want to add a station to a very highidemand area, even if that proposed station would require rebalancing—the income generated from that station could, potentially, pay for its own rebalancing. Nonetheless, this rebalancing minimization tool would still provide decision-makers with helpful information.
 
 ## Project Timeline
 
 ### Phase 1: Data Collection [In Progress]
-File: (coming soon)
+File: (coming soon)\n
 Ride data (originally downloaded as .csv files), station data (.json), and elevation data (.tif) will be combined and exported as a parquet file. Columns will be cast down to memory-efficient data types before exporting.
 
 ### Phase 2: Data Visualization
