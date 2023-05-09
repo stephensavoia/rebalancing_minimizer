@@ -13,17 +13,17 @@ Note that this tool is not intended to be a sole decision-maker for planning sta
 ## Project Timeline
 
 ### Phase 1: Data Collection [In Progress]
-File: (coming soon)\n
+File: (coming soon)  
 Ride data (originally downloaded as .csv files), station data (.json), and elevation data (.tif) will be combined and exported as a parquet file. Columns will be cast down to memory-efficient data types before exporting.
 
 ### Phase 2: Data Visualization
-File: (coming soon)
+File: (coming soon)  
 Data will be analyzed, visually, using maps and scatter plots. A dashboard, displaying several city maps, will be created using Plotly.
 
 ### Phase 3: Machine Learning Model
-File: (coming soon)
+File: (coming soon)  
 A linear regression model will be trained using a station's longitude, latitude, and elevation as predictor variables, and the station's ride-end ratio (# of rides ended at the station / # of rides started or ended at the station) as the target variable.
 
 ### Phase 4: Review/Next Steps
-File: (coming soon)
+File: (coming soon)  
 Strengths and limitations of the rebalancing minimization tool will be discussed, as well potential future projects that this project can be used as a steppingstone towards.
