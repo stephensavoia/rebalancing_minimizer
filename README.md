@@ -12,11 +12,11 @@ Note that this tool is not intended to be a sole decision-maker for planning sta
 
 ## Project Timeline
 
-### Phase 1: Data Collection [In Progress]
-*File: (coming soon)*  
+### Phase 1: Data Collection [Complete]
+*File: [https://github.com/stephensavoia/rebalancing_minimizer/blob/main/data.ipynb](https://github.com/stephensavoia/rebalancing_minimizer/blob/main/data.ipynb)*  
 Ride data (originally downloaded as .csv files), station data (.json), and elevation data (.tif) will be combined and exported as a parquet file. Columns will be cast down to memory-efficient data types before exporting.
 
-### Phase 2: Data Visualization
+### Phase 2: Data Visualization [In Progress]
 *File: (coming soon)*  
 Data will be analyzed, visually, using maps and scatter plots. A dashboard, displaying several city maps, will be created using Plotly.
 
