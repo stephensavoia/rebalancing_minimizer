@@ -15,12 +15,14 @@ Note that this tool is not intended to be a sole decision-maker for planning sta
 ### Phase 1: Data Collection [Complete]
 Ride data (originally downloaded as .csv files), station data (.json), and elevation data (.tif) will be combined and exported as a parquet file. Columns will be cast down to memory-efficient data types before exporting.  
   
-File: [https://github.com/stephensavoia/rebalancing_minimizer/blob/main/data.ipynb](https://github.com/stephensavoia/rebalancing_minimizer/blob/main/data.ipynb)
+File: [data.ipynb](https://github.com/stephensavoia/rebalancing_minimizer/blob/main/data.ipynb)
 
-### Phase 2: Data Visualization [In Progress]
+### Phase 2: Data Visualization [Complete]
 Data will be analyzed, visually, using maps and scatter plots. A dashboard, displaying several city maps, will be created using Plotly.
 
-### Phase 3: Machine Learning Model
+File: [visualization.ipynb](https://github.com/stephensavoia/rebalancing_minimizer/blob/main/visualization.ipynb)
+
+### Phase 3: Machine Learning Model [In Progress]
 A linear regression model will be trained using a station's longitude, latitude, and elevation as predictor variables, and the station's ride-end ratio (# of rides ended at the station / # of rides started or ended at the station) as the target variable.
 
 ### Phase 4: Review/Next Steps
