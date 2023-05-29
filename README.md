@@ -22,8 +22,10 @@ Data will be analyzed, visually, using maps and scatter plots. A dashboard, disp
 
 File: [visualization.ipynb](https://github.com/stephensavoia/rebalancing_minimizer/blob/main/visualization.ipynb)
 
-### Phase 3: Machine Learning Model [In Progress]
-A linear regression model will be trained using a station's longitude, latitude, and elevation as predictor variables, and the station's ride-end ratio (# of rides ended at the station / # of rides started or ended at the station) as the target variable.
+### Phase 3: Machine Learning Model [Complete]
+A model will be trained using a station's longitude, latitude, and elevation as predictor variables, and the station's ride-end ratio (# of rides ended at the station / # of rides started or ended at the station) as the target variable.
+
+File: [model.ipynb](https://github.com/stephensavoia/rebalancing_minimizer/blob/main/model.ipynb)
 
 ### Phase 4: Review/Next Steps
 Strengths and limitations of the rebalancing minimization tool will be discussed, as well potential future projects that this project can be used as a steppingstone towards.
